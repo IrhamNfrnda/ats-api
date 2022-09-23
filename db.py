@@ -1,9 +1,4 @@
 import pymysql
-# import socket
-# hostname=socket.gethostname()
-# IPAddr=socket.gethostbyname(hostname)
-# print("Your Computer Name is:"+hostname)
-# print("Your Computer IP Address is:"+IPAddr)
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
