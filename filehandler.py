@@ -7,7 +7,6 @@ import wget
 import spacy
 from datetime import datetime
 
-# spacy.cli.download("en_core_web_sm")
 
 def baca_file(file):
     x = open(file, 'r', encoding='utf-8')

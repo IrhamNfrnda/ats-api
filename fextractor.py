@@ -9,7 +9,6 @@ def sentence_location(sentences):
     posisi_s = 1
     score_f1 = {}
     for index, content in zip(sentences['sentence_index'], sentences['sentence']):
-        # for content in sentences['sentence']:
         s_f1 = ((jumlah_s - posisi_s) / jumlah_s)
         key = str(index)
         score_f1.update({key: s_f1})
@@ -90,7 +89,6 @@ def numerical_feature(sentences):
     jumlah_term = filehandler.hitung_dkata(sentences)
     for index, content in zip(sentences['sentence_index'], sentences['sentence']):
         jumlah_numerik = filehandler.hitung_numerik(content)
-        # jumlah_term = len(content.split())
         s_f5 = jumlah_numerik / jumlah_term
         key = str(index)
         score_f5.update({key: s_f5})
