@@ -26,13 +26,5 @@ python api.py
 
 - Access the ATS web application by visiting http://localhost:5000 in your web browser.
 
-# Usage
-Once the ATS application is running, you can start using it to summarize your text data.
-Enter or upload your text data into the ATS application.
-Select the desired summarization algorithm or technique.
-Click on the "Summarize" button to generate the summary.
-View and analyze the generated summary.
-Explore additional features and options provided by the ATS application.
-
 # License
 The ATS application is licensed under the MIT License. Feel free to modify and use the code according to your needs.
