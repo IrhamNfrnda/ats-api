@@ -13,7 +13,7 @@ The ATS application is built using the following technologies:
 
 # Setup and Installation
 - Clone the repository to your local machine using the following command:  
-git clone https://github.com/your-username/ats-repo.git
+git clone https://github.com/irhamnfrnda/ats-api.git
 
 - Install the required Python dependencies by running the following command in your terminal:  
 pip install -r requirements.txt
